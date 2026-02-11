@@ -34,16 +34,17 @@ body {
   margin-bottom: 30px;
 }
 .hero__img {
-  width: 100%;
+  width: 80%;
   display: block;
   margin: 0 auto;
 }
 .hero__text {
   text-align: right;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 30px;
   letter-spacing: 1.7;
   font-family: "Great Vibes";
   margin: 0;
   margin-top: 10px;
+  margin-right: 40px;
 }
