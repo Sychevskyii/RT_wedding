@@ -34,7 +34,7 @@ body {
   margin-bottom: 30px;
 }
 .hero__img {
-  width: 400px;
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
