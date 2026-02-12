@@ -14,8 +14,8 @@ body {
 /* hero */
 .hero {
   color: #8396b4;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 110px;
+  padding-bottom: 90px;
 }
 .hero__date {
   text-align: center;
@@ -47,4 +47,184 @@ body {
   margin: 0;
   margin-top: 10px;
   margin-right: 40px;
+}
+/* love */
+.love-section {
+  background-color: #dceaf6;
+  padding-top: 75px;
+  padding-bottom: 300px;
+}
+.container-big {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.icones {
+}
+.icones__first {
+  position: absolute;
+  top: -120%;
+  left: 5%;
+}
+.icones__first img {
+  width: 30px;
+}
+.icones__second {
+  position: absolute;
+  top: -140%;
+  left: 25%;
+}
+.icones__second img {
+  width: 50px;
+}
+.icones__third {
+  position: absolute;
+  top: -50%;
+  left: 43%;
+}
+
+.icones__third img {
+  width: 20px;
+}
+.icones__fourgh {
+  position: absolute;
+  top: -110%;
+  left: 55%;
+}
+
+.icones__fourgh img {
+  width: 80px;
+}
+.icones__five {
+  position: absolute;
+  top: -150%;
+  left: 80%;
+}
+.icones__five img {
+  width: 60px;
+}
+.icones__six {
+  position: absolute;
+  top: 30%;
+  left: 29%;
+}
+
+.icones__six img {
+  width: 32px;
+}
+.icones__seven {
+  position: absolute;
+  top: 550%;
+  left: 4%;
+}
+.icones__seven img {
+  width: 20px;
+}
+.icones__eight {
+  position: absolute;
+  top: 580%;
+  left: 30%;
+}
+
+.icones__eight img {
+  width: 40px;
+}
+.icones__nine {
+  position: absolute;
+  top: 510%;
+  left: 60%;
+}
+
+.icones__nine img {
+  width: 30px;
+}
+.icones__ten {
+  position: absolute;
+  top: 550%;
+  left: 75%;
+}
+
+.icones__ten img {
+  width: 70px;
+}
+.lovers {
+  position: relative;
+}
+.lovers__vlad {
+  width: 150px;
+  height: 220px;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  rotate: -11deg;
+  box-shadow:
+    0 12px 26px 0 rgba(0, 0, 0, 0.1),
+    0 46px 46px 0 rgba(0, 0, 0, 0.09),
+    0 104px 63px 0 rgba(0, 0, 0, 0.05),
+    0 185px 74px 0 rgba(0, 0, 0, 0.01),
+    0 290px 81px 0 rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 90%;
+    left: 4%;
+}
+.lovers__vlad img {
+  width: 150px;
+}
+/*.lovers__title-vlad {
+  rotate: -10deg;
+  font-family: "Caveat";
+  color: #8396b4;
+  font-size: 30px;
+  line-height: 0;
+}*/
+.lovers__label-vlad {
+  text-align: center;
+  font-family: "Caveat";
+  color: #8396b4;
+  font-size: 30px;
+  line-height: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+.lovers__rita {
+  width: 150px;
+  height: 220px;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  rotate: 10deg;
+  box-shadow:
+    0 12px 26px 0 rgba(0, 0, 0, 0.1),
+    0 46px 46px 0 rgba(0, 0, 0, 0.09),
+    0 104px 63px 0 rgba(0, 0, 0, 0.05),
+    0 185px 74px 0 rgba(0, 0, 0, 0.01),
+    0 290px 81px 0 rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+.lovers__rita img {
+  width: 150px;
+}
+/*.lovers__title-rita {
+  rotate: 10deg;
+  font-family: "Caveat";
+  color: #8396b4;
+  font-size: 30px;
+  text-align: left;
+}*/
+.lovers__label-rita {
+  text-align: center;
+  font-family: "Caveat";
+  color: #8396b4;
+  font-size: 30px;
+  line-height: 0;
+  margin: 0;
+  margin-top: 20px;
 }
