@@ -52,7 +52,6 @@ body {
 .love-section {
   background-color: #dceaf6;
   padding-top: 75px;
-  
 }
 .container-big {
   max-width: 500px;
@@ -250,7 +249,7 @@ body {
   font-size: 48px;
   margin: 0;
   margin-bottom: 10px;
-  color: #8396B4;
+  color: #8396b4;
 }
 .relatives__text {
   margin: 0;
@@ -258,11 +257,42 @@ body {
   letter-spacing: 1;
   font-family: "Cormorant Garamond";
   text-align: center;
-  color: #8396B4;
+  color: #8396b4;
 }
 .big-wave {
   top: 50%;
   width: 100%;
   height: auto;
   position: absolute;
+}
+/* calendar*/
+.calendar {
+  padding-top: 180px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.calendar-container-small {
+  position: relative;
+  width: 280px;
+}
+.calendar__img {
+  width: 100%;
+}
+.calendar__heart {
+  position: absolute;
+  width: 30px;
+  top: 85%;
+  left: 66%;
+}
+.calendar__big-flower {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  width: 110px;
+}
+.calendar__small-flower {
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  width: 80px;
 }
