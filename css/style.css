@@ -14,8 +14,8 @@ body {
 /* hero */
 .hero {
   color: #8396b4;
-  padding-top: 110px;
-  padding-bottom: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .hero__date {
   text-align: center;
@@ -52,7 +52,7 @@ body {
 .love-section {
   background-color: #dceaf6;
   padding-top: 75px;
-  padding-bottom: 300px;
+  
 }
 .container-big {
   max-width: 500px;
@@ -75,15 +75,15 @@ body {
 .icones__second {
   position: absolute;
   top: -140%;
-  left: 25%;
+  left: 35%;
 }
 .icones__second img {
   width: 50px;
 }
 .icones__third {
   position: absolute;
-  top: -50%;
-  left: 43%;
+  top: -55%;
+  left: 65%;
 }
 
 .icones__third img {
@@ -91,12 +91,12 @@ body {
 }
 .icones__fourgh {
   position: absolute;
-  top: -110%;
-  left: 55%;
+  top: 87%;
+  left: 61%;
 }
 
 .icones__fourgh img {
-  width: 80px;
+  width: 60px;
 }
 .icones__five {
   position: absolute;
@@ -134,7 +134,7 @@ body {
 }
 .icones__nine {
   position: absolute;
-  top: 510%;
+  top: 550%;
   left: 60%;
 }
 
@@ -143,7 +143,7 @@ body {
 }
 .icones__ten {
   position: absolute;
-  top: 550%;
+  top: 580%;
   left: 75%;
 }
 
@@ -167,20 +167,20 @@ body {
     0 104px 63px 0 rgba(0, 0, 0, 0.05),
     0 185px 74px 0 rgba(0, 0, 0, 0.01),
     0 290px 81px 0 rgba(0, 0, 0, 0);
-    position: absolute;
-    top: 90%;
-    left: 4%;
+  position: absolute;
+  top: 90%;
+  left: 4%;
 }
 .lovers__vlad img {
   width: 150px;
 }
-/*.lovers__title-vlad {
+.lovers__title-vlad {
   rotate: -10deg;
   font-family: "Caveat";
   color: #8396b4;
   font-size: 30px;
   line-height: 0;
-}*/
+}
 .lovers__label-vlad {
   text-align: center;
   font-family: "Caveat";
@@ -204,21 +204,22 @@ body {
     0 104px 63px 0 rgba(0, 0, 0, 0.05),
     0 185px 74px 0 rgba(0, 0, 0, 0.01),
     0 290px 81px 0 rgba(0, 0, 0, 0);
-    position: absolute;
-    top: 0;
-    right: 5%;
+  position: absolute;
+  top: 150%;
+  right: 5%;
 }
 
 .lovers__rita img {
   width: 150px;
 }
-/*.lovers__title-rita {
+.lovers__title-rita {
   rotate: 10deg;
   font-family: "Caveat";
   color: #8396b4;
   font-size: 30px;
-  text-align: left;
-}*/
+  text-align: right;
+  line-height: 1;
+}
 .lovers__label-rita {
   text-align: center;
   font-family: "Caveat";
@@ -227,4 +228,41 @@ body {
   line-height: 0;
   margin: 0;
   margin-top: 20px;
+}
+
+.wave {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 300px;
+}
+/* relatives */
+.relatives {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.relatives__title {
+  text-align: center;
+  font-family: "Great Vibes";
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #8396B4;
+}
+.relatives__text {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 1;
+  font-family: "Cormorant Garamond";
+  text-align: center;
+  color: #8396B4;
+}
+.big-wave {
+  top: 50%;
+  width: 100%;
+  height: auto;
+  position: absolute;
 }
