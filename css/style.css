@@ -296,3 +296,232 @@ body {
   bottom: 10%;
   width: 70px;
 }
+/*place*/
+.place {
+  padding-top: 20px;
+  position: relative;
+}
+
+.place__leafs {
+  position: absolute;
+  right: 0;
+  width: 60px;
+}
+
+.place__title {
+  text-align: center;
+  font-family: "Great Vibes";
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #8396b4;
+  margin-bottom: 20px;
+}
+.place__card {
+  width: 280px;
+  height: 140px;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  box-shadow:
+    0 12px 26px 0 rgba(0, 0, 0, 0.1),
+    0 46px 46px 0 rgba(0, 0, 0, 0.09),
+    0 104px 63px 0 rgba(0, 0, 0, 0.05),
+    0 185px 74px 0 rgba(0, 0, 0, 0.01),
+    0 290px 81px 0 rgba(0, 0, 0, 0);
+}
+
+.place__card img {
+  width: 100%;
+}
+.place__name {
+  text-align: center;
+  font-family: "Great Vibes";
+  font-weight: 400;
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #8396b4;
+}
+.place__point {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.place__point img {
+  width: 10px;
+}
+.place__adress {
+  font-size: 20px;
+  letter-spacing: 1;
+  font-family: "Cormorant Garamond";
+  text-align: center;
+  color: #8396b4;
+  margin: 0;
+}
+.place__wave {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: -1px;
+}
+/*plan*/
+.plan {
+  padding-top: 20px;
+  
+  background-color: #dceaf6;
+  position: relative;
+}
+.plan__leafs {
+  position: absolute;
+  width: 110px;
+  left: 0;
+  top: 0;
+}
+.container-small {
+}
+.plan__title {
+  text-align: center;
+  font-family: "Great Vibes";
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #8396b4;
+  margin-bottom: 20px;
+}
+.plan__road {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.plan__guests {
+  font-size: 20px;
+  letter-spacing: 1;
+  font-family: "Cormorant Garamond";
+  text-align: left;
+  color: #8396b4;
+  margin: 0;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+}
+.plan__banket {
+  font-size: 20px;
+  letter-spacing: 1;
+  font-family: "Cormorant Garamond";
+  text-align: left;
+  color: #8396b4;
+  margin: 0;
+  position: absolute;
+  top: 63%;
+  left: -6%;
+}
+.plan__line {
+  width: 3px;
+  display: block;
+  margin: 0 auto;
+}
+.plan__heart {
+  width: 20px;
+}
+.heart-one {
+  position: absolute;
+  top: 17%;
+  left: 47%;
+}
+.heart-two {
+  position: absolute;
+  top: 47%;
+  left: 47%;
+}
+.heart-three {
+  position: absolute;
+  top: 77%;
+  left: 47%;
+}
+.plan__ceremony {
+  font-size: 20px;
+  letter-spacing: 1;
+  font-family: "Cormorant Garamond";
+  text-align: right;
+  color: #8396b4;
+  position: absolute;
+  top: 25%;
+  right: 12%;
+}
+.plan__blue-flower {
+  position: absolute;
+  top:45%;
+  right: 0;
+  width: 100px;
+}
+.plan__white-flower {
+  position: absolute;
+  width: 180px;
+  top:55%;
+  right: 0;
+}
+.plan__wave-bottom {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 180px;
+}
+/*dress*/
+.dress{
+ position: relative;
+}
+.container-big {
+}
+.dress__title {
+  text-align: center;
+  font-family: "Great Vibes";
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #8396b4;
+  margin-bottom: 0;
+}
+.dress__text {
+  font-size: 20px;
+  letter-spacing: 1;
+  font-family: "Cormorant Garamond";
+  text-align: center;
+  color: #8396b4;
+  width: 320px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.dress__colors {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.dress__colors img {
+  width: 50px;
+}
+
+.dress__wave {
+  top: 65%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
