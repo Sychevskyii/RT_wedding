@@ -608,13 +608,13 @@ body {
 .wishes__blue-flower {
   width: 135px;
   position: absolute;
-  right: -2%;
+  right: 0;
   bottom: 10%;
 }
 .wishes__leafs {
   width: 80px;
   position: absolute;
-  left: -3%;
+  left: 0;
   top: 30%;
 }
 
