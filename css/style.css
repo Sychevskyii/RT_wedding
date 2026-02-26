@@ -1,3 +1,6 @@
+:root {
+  --animate-delay: 0.1s;
+}
 /* main */
 body {
   font-family: "Cormorant Garamond";
