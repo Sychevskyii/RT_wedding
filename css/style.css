@@ -617,7 +617,7 @@ body {
 .wishes__leafs {
   width: 80px;
   position: absolute;
-  left: 0;
+  left: -3%;
   top: 30%;
 }
 
