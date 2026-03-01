@@ -14,6 +14,16 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+@media (max-width: 389.99px) {
+  .container-small {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 /* hero */
 .hero {
   color: #8396b4;
@@ -36,6 +46,11 @@ body {
   margin: 0;
   margin-bottom: 18px;
 }
+@media (max-width: 389.99px) {
+  .hero__label {
+    font-size: 36px;
+  }
+}
 .hero__img {
   width: 78%;
   display: block;
@@ -50,6 +65,12 @@ body {
   margin: 0;
   margin-top: 10px;
   margin-right: 40px;
+}
+
+@media (max-width: 389.99px) {
+  .hero__text {
+    font-size: 26px;
+  }
 }
 /* love */
 .love-section {
@@ -99,6 +120,13 @@ body {
 
 .icones__fourgh img {
   width: 60px;
+}
+
+@media (max-width: 389.99px) {
+  .icones__fourgh {
+  top: 90%;
+  left: 61%;
+}
 }
 .icones__five {
   position: absolute;
@@ -176,6 +204,17 @@ body {
 .lovers__vlad img {
   width: 150px;
 }
+
+@media (max-width: 389.99px) {
+  .lovers__vlad {
+    width: 100px;
+    height: 140px;
+  }
+
+  .lovers__vlad img {
+    width: 100px;
+  }
+}
 .lovers__title-vlad {
   rotate: -10deg;
   font-family: "Caveat";
@@ -183,6 +222,7 @@ body {
   font-size: 30px;
   line-height: 0;
 }
+
 .lovers__label-vlad {
   text-align: center;
   font-family: "Caveat";
@@ -191,6 +231,17 @@ body {
   line-height: 0;
   margin: 0;
   margin-top: 20px;
+}
+
+@media (max-width: 389.99px) {
+  .lovers__title-vlad {
+    font-size: 26px;
+  }
+
+  .lovers__label-vlad {
+    font-size: 26px;
+    margin-top: 10px;
+  }
 }
 .lovers__rita {
   width: 150px;
@@ -214,6 +265,16 @@ body {
 .lovers__rita img {
   width: 150px;
 }
+@media (max-width: 389.99px) {
+  .lovers__rita {
+    width: 100px;
+    height: 140px;
+  }
+
+  .lovers__rita img {
+    width: 100px;
+  }
+}
 .lovers__title-rita {
   rotate: 10deg;
   font-family: "Caveat";
@@ -231,7 +292,16 @@ body {
   margin: 0;
   margin-top: 20px;
 }
+@media (max-width: 389.99px) {
+  .lovers__title-rita {
+    font-size: 26px;
+  }
 
+  .lovers__label-rita {
+    font-size: 26px;
+    margin-top: 10px;
+  }
+}
 .wave {
   display: block;
   width: 100%;
@@ -631,10 +701,10 @@ body {
 }
 /*meet*/
 .meet {
-   background-color: #dceaf6;
-   padding-top: 30px;
-   padding-bottom: 70px;
-   position: relative;
+  background-color: #dceaf6;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  position: relative;
 }
 .container-small {
 }
@@ -674,7 +744,7 @@ body {
   font-size: 22px;
   margin: 0;
   margin-bottom: 10px;
-  color: #9DBDE3;
+  color: #9dbde3;
   margin-top: 15px;
 }
 .meet__flower {
