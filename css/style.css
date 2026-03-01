@@ -17,8 +17,8 @@ body {
 /* hero */
 .hero {
   color: #8396b4;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .hero__date {
   text-align: center;
@@ -208,7 +208,7 @@ body {
     0 290px 81px 0 rgba(0, 0, 0, 0);
   position: absolute;
   top: 150%;
-  right: 5%;
+  right: 2%;
 }
 
 .lovers__rita img {
