@@ -1,6 +1,7 @@
 :root {
   --animate-delay: 0.1s;
 }
+
 /* main */
 body {
   font-family: "Cormorant Garamond";
@@ -14,10 +15,17 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+.container-big {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
 @media (max-width: 359.99px) {
   .container-small {
-    max-width: 280px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -77,16 +85,13 @@ body {
   background-color: #dceaf6;
   padding-top: 75px;
 }
-.container-big {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-}
-.icones {
-}
+
+/*@media (max-width: 359.99px) {
+  .love-section {
+    width: 105%;
+  }
+}*/
+
 .icones__first {
   position: absolute;
   top: -120%;
@@ -124,9 +129,13 @@ body {
 
 @media (max-width: 359.99px) {
   .icones__fourgh {
-  top: 90%;
-  left: 61%;
-}
+    top: 90%;
+    left: 58%;
+  }
+
+  .icones__fourgh img {
+    width: 40px;
+  }
 }
 .icones__five {
   position: absolute;
@@ -144,6 +153,16 @@ body {
 
 .icones__six img {
   width: 32px;
+}
+@media (max-width: 359.99px) {
+  .icones__six {
+    top: 22%;
+    left: 33%;
+  }
+
+  .icones__six img {
+    width: 28px;
+  }
 }
 .icones__seven {
   position: absolute;
@@ -324,6 +343,12 @@ body {
   margin-bottom: 10px;
   color: #8396b4;
 }
+
+@media (max-width: 359.99px) {
+  .relatives__title {
+    font-size: 36px;
+  }
+}
 .relatives__text {
   margin: 0;
   font-size: 20px;
@@ -332,11 +357,21 @@ body {
   text-align: center;
   color: #8396b4;
 }
+@media (max-width: 359.99px) {
+  .relatives__text {
+    font-size: 18px;
+  }
+}
 .big-wave {
   top: 50%;
   width: 100%;
   height: auto;
   position: absolute;
+}
+/*@media (max-width: 359.99px) {
+  .big-wave {
+    width: 105%;
+  }
 }
 /* calendar*/
 .calendar {
@@ -351,11 +386,24 @@ body {
 .calendar__img {
   width: 100%;
 }
+@media (max-width: 359.99px) {
+  .calendar__img {
+    width: 90%;
+    display: block;
+    margin-left: 30px;
+  }
+}
 .calendar__heart {
   position: absolute;
   width: 30px;
   top: 85%;
   left: 66%;
+}
+@media (max-width: 359.99px) {
+  .calendar__heart {
+    top: 86%;
+    left: 69%;
+  }
 }
 .calendar__big-flower {
   position: absolute;
@@ -390,6 +438,11 @@ body {
   margin-bottom: 10px;
   color: #8396b4;
   margin-bottom: 20px;
+}
+@media (max-width: 359.99px) {
+  .place__title {
+    font-size: 36px;
+  }
 }
 .place__card {
   width: 280px;
@@ -461,8 +514,6 @@ body {
   left: 0;
   top: 0;
 }
-.container-small {
-}
 .plan__title {
   text-align: center;
   font-family: "Great Vibes";
@@ -472,6 +523,11 @@ body {
   margin-bottom: 10px;
   color: #8396b4;
   margin-bottom: 60px;
+}
+@media (max-width: 359.99px) {
+  .plan__title {
+    font-size: 36px;
+  }
 }
 .plan__road {
   width: 300px;
@@ -490,6 +546,12 @@ body {
   top: 3%;
   left: 10%;
 }
+@media (max-width: 359.99px) {
+  .plan__guests {
+    font-size: 18px;
+    left: 15%;
+  }
+}
 .plan__banket {
   font-size: 20px;
   letter-spacing: 1;
@@ -500,6 +562,12 @@ body {
   position: absolute;
   top: 63%;
   left: -6%;
+}
+@media (max-width: 359.99px) {
+  .plan__banket {
+    font-size: 18px;
+    left: 0;
+  }
 }
 .plan__line {
   width: 3px;
@@ -534,6 +602,12 @@ body {
   top: 25%;
   right: 12%;
 }
+@media (max-width: 359.99px) {
+  .plan__ceremony {
+    font-size: 18px;
+    right: 17%;
+  }
+}
 .plan__blue-flower {
   position: absolute;
   top: 45%;
@@ -556,8 +630,7 @@ body {
 .dress {
   position: relative;
 }
-.container-big {
-}
+
 .dress__title {
   text-align: center;
   font-family: "Great Vibes";
@@ -567,6 +640,11 @@ body {
   margin-bottom: 10px;
   color: #8396b4;
   margin-bottom: 0;
+}
+@media (max-width: 359.99px) {
+  .dress__title {
+    font-size: 36px;
+  }
 }
 .dress__text {
   font-size: 20px;
@@ -580,6 +658,12 @@ body {
   margin-right: auto;
   margin-bottom: 40px;
 }
+@media (max-width: 359.99px) {
+  .dress__text {
+    width: 280px;
+    font-size: 18px;
+  }
+}
 .dress__colors {
   display: flex;
   align-items: center;
@@ -590,6 +674,11 @@ body {
 .dress__colors img {
   width: 50px;
 }
+@media (max-width: 359.99px) {
+  .dress__colors img {
+    width: 40px;
+  }
+}
 
 .dress__wave {
   top: 65%;
@@ -597,6 +686,7 @@ body {
   height: auto;
   position: absolute;
 }
+
 /*wishes*/
 .wishes {
   padding-top: 200px;
@@ -607,6 +697,11 @@ body {
   position: relative;
   width: 300px;
 }
+@media (max-width: 359.99px) {
+  .container-big-wishes {
+    width: 280px;
+  }
+}
 .wishes__title {
   text-align: center;
   font-family: "Great Vibes";
@@ -616,6 +711,11 @@ body {
   margin-bottom: 10px;
   color: #8396b4;
   margin-bottom: 20px;
+}
+@media (max-width: 359.99px) {
+  .wishes__title {
+    font-size: 36px;
+  }
 }
 .wishes__text {
   font-size: 20px;
@@ -628,6 +728,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+}
+
+@media (max-width: 359.99px) {
+  .wishes__text {
+    font-size: 18px;
+    width: 270px;
+    margin-right: 0;
+  }
 }
 .wishes__card-hands {
   width: 120px;
@@ -647,8 +755,20 @@ body {
   left: -5%;
   top: 100%;
 }
+@media (max-width: 359.99px) {
+  .wishes__card-hands {
+    width: 100px;
+    height: 150px;
+    left: 5%;
+  }
+}
 .wishes__card-hands img {
   width: 120px;
+}
+@media (max-width: 359.99px) {
+  .wishes__card-hands img {
+    width: 100px;
+  }
 }
 .wishes__card-pair {
   width: 120px;
@@ -668,9 +788,20 @@ body {
   left: 35%;
   top: 120%;
 }
-
+@media (max-width: 359.99px) {
+  .wishes__card-pair {
+    width: 100px;
+    height: 150px;
+    top: 120%;
+  }
+}
 .wishes__card-pair img {
   width: 120px;
+}
+@media (max-width: 359.99px) {
+  .wishes__card-pair img {
+    width: 100px;
+  }
 }
 .wishes__white-flower {
   width: 80px;
@@ -706,8 +837,7 @@ body {
   padding-bottom: 70px;
   position: relative;
 }
-.container-small {
-}
+
 .meet__title {
   text-align: center;
   font-family: "Great Vibes";
@@ -717,6 +847,11 @@ body {
   margin-bottom: 10px;
   color: #8396b4;
   margin-bottom: 20px;
+}
+@media (max-width: 359.99px) {
+  .meet__title {
+    font-size: 36px;
+  }
 }
 .meet__card {
   width: 280px;
@@ -734,9 +869,18 @@ body {
     0 185px 74px 0 rgba(0, 0, 0, 0.01),
     0 290px 81px 0 rgba(0, 0, 0, 0);
 }
-
+@media (max-width: 359.99px) {
+  .meet__card {
+    width: 240px;
+  }
+}
 .meet__card img {
   width: 280px;
+}
+@media (max-width: 359.99px) {
+  .meet__card img {
+    width: 240px;
+  }
 }
 .meet__text {
   text-align: right;
