@@ -15,7 +15,7 @@ body {
   padding-right: 15px;
 }
 
-@media (max-width: 389.99px) {
+@media (max-width: 359.99px) {
   .container-small {
     max-width: 280px;
     margin-left: auto;
@@ -46,7 +46,7 @@ body {
   margin: 0;
   margin-bottom: 18px;
 }
-@media (max-width: 389.99px) {
+@media (max-width: 359.99px) {
   .hero__label {
     font-size: 36px;
   }
@@ -67,7 +67,7 @@ body {
   margin-right: 40px;
 }
 
-@media (max-width: 389.99px) {
+@media (max-width: 359.99px) {
   .hero__text {
     font-size: 26px;
   }
@@ -122,7 +122,7 @@ body {
   width: 60px;
 }
 
-@media (max-width: 389.99px) {
+@media (max-width: 359.99px) {
   .icones__fourgh {
   top: 90%;
   left: 61%;
@@ -205,7 +205,7 @@ body {
   width: 150px;
 }
 
-@media (max-width: 389.99px) {
+@media (max-width: 359.99px) {
   .lovers__vlad {
     width: 100px;
     height: 140px;
@@ -233,7 +233,7 @@ body {
   margin-top: 20px;
 }
 
-@media (max-width: 389.99px) {
+@media (max-width: 359.99px) {
   .lovers__title-vlad {
     font-size: 26px;
   }
@@ -265,7 +265,7 @@ body {
 .lovers__rita img {
   width: 150px;
 }
-@media (max-width: 389.99px) {
+@media (max-width: 359.99px) {
   .lovers__rita {
     width: 100px;
     height: 140px;
@@ -292,7 +292,7 @@ body {
   margin: 0;
   margin-top: 20px;
 }
-@media (max-width: 389.99px) {
+@media (max-width: 359.99px) {
   .lovers__title-rita {
     font-size: 26px;
   }
@@ -752,4 +752,25 @@ body {
   position: absolute;
   width: 120px;
   bottom: 5%;
+}
+/*player*/
+#audio-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: #9dbde3;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 9999;
+  transition: 0.3s ease;
+  opacity: 50%;
+}
+
+#audio-toggle:hover {
+  transform: scale(1.1);
 }
